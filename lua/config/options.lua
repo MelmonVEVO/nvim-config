@@ -4,6 +4,15 @@
 
 local opt = vim.opt
 
-opt.relativenumber = false
+-- opt.relativenumber = false
 opt.tabstop = 2
 opt.list = true
+
+-- vim.filetype.add({
+--   extension = {
+--     gd = "gdscript",
+--     gdscript = "gdscript",
+--     tscn = "gdresource",
+--     tres = "gdresource",
+--   },
+-- })
