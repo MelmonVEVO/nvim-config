@@ -3,6 +3,14 @@ return {
   priority = 1000,
   lazy = false,
   opts = {
+    picker = {
+      hidden = true,
+      sources = {
+        files = {
+          hidden = true,
+        },
+      },
+    },
     dashboard = {
       preset = {
         header = [[
