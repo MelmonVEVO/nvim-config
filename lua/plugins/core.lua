@@ -4,6 +4,7 @@ return {
     lazy = true,
     opts = {
       style = "night",
+      transparent = true,
       styles = {
         comments = { italic = false },
         keywords = { italic = false },
