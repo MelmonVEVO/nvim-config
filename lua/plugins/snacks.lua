@@ -34,7 +34,7 @@ return {
         { section = "header" },
         { section = "recent_files", title = "Files", cwd = true, indent = 2, padding = 1 },
         { section = "keys", title = "Actions", indent = 2, padding = 1 },
-        { section = "terminal", cmd = "fortune -as computers | fold -w 60 -s", padding = 1, hl = "header" },
+        { section = "terminal", cmd = "fortune -as computers | fold -w 60 -s", height = 5, padding = 1, hl = "header" },
       },
     },
   },
