@@ -8,5 +8,11 @@ end, { nargs = 0, desc = "Reveals the history logged by Snacks notifier." })
 
 local opt = vim.opt
 
-opt.tabstop = 2
+opt.expandtab = true
 opt.list = true
+
+vim.filetype.add({
+  extension = {
+    fs = "glsl",
+  },
+})
