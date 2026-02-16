@@ -16,3 +16,16 @@ vim.api.nvim_create_autocmd("FileType", {
     opt.softtabstop = 4
   end,
 })
+
+-- vim.filetype.add({
+--   extension = {
+--     gd = "gdscript",
+--   },
+-- })
+
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+  pattern = "*.h",
+  callback = function()
+    vim.bo.filetype = "c"
+  end,
+})
