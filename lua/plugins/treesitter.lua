@@ -1,0 +1,24 @@
+return {
+  "nvim-treesitter/nvim-treesitter",
+  opts = {
+    ensure_installed = {
+      "bash",
+      "html",
+      "javascript",
+      "json",
+      "lua",
+      "markdown",
+      "markdown_inline",
+      "python",
+      "regex",
+      "tsx",
+      "typescript",
+      "c",
+      "gdscript",
+      "godot_resource",
+      "gdshader",
+      "wren",
+    },
+    auto_install = true,
+  },
+}
