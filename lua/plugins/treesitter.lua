@@ -14,6 +14,7 @@ return {
       "tsx",
       "typescript",
       "c",
+      "odin",
       "gdscript",
       "godot_resource",
       "gdshader",

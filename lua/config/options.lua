@@ -13,5 +13,6 @@ opt.list = true
 vim.filetype.add({
   extension = {
     fs = "glsl",
+    h = "c",
   },
 })

@@ -10,7 +10,7 @@ return {
         keywords = { italic = false },
       },
       on_colors = function(colors)
-        colors.comment = "#ffa1f6"
+        colors.comment = "#fa71ff"
       end,
     },
   },
